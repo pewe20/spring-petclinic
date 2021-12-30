@@ -11,6 +11,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- checkout: self
 - checkout: git//SvenskaHandelsbanken/Minerva/_git/jaft-test
 
 - script: echo Hello, world!

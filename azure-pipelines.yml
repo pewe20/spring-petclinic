@@ -11,6 +11,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- checkout: git//SvenskaHandelsbanken/Minerva/_git/jaft-test
+
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 

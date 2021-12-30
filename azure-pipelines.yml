@@ -12,7 +12,7 @@ pool:
 
 steps:
 - checkout: self
-- checkout: git://SvenskaHandelsbanken/Minerva/jaft-test
+- checkout: git://Minerva/jaft-test
 
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
